@@ -65,7 +65,7 @@ const Pricing = () => {
                 variants={fadeIn("up", 0.15)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.5 }}
+                viewport={{ once: false, amount: 0.3 }}
                 className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 md:w-12/12 mx-auto">
                 {
                     packages.map((pkg, index) => (
