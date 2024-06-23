@@ -19,7 +19,7 @@ const Footer = () => {
                         Committed to excellence, innovation, and your success. © 2024 W&E<code className="text-sm font-semibold">-ltd.</code>. All rights reserved.
                     </p>
                     <div>
-                        <input type="email" name="email" id="email" placeholder='Your email' className='bg-slate-200 py-2 px-6 rounded-md focus:outline-none' />
+                        <input type="email" name="email" id="email" placeholder='Your email' className='bg-slate-200 py-2 px-4 rounded-md focus:outline-none' />
                         <input type="submit" value="Subscribe" className='px-4 py-2 bg-yellow-300 rounded-md -ml-2 cursor-pointer hover:bg-yellow-400 transition-all ' />
                     </div>
                 </div>
