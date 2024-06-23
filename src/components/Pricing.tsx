@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from 'framer-motion';
 import { fadeIn } from './veriants';
+import yellow from '../assets/yellowDot.png';
 
 const Pricing = () => {
     const [isYearly, setIsYearly] = useState(false);
@@ -16,7 +17,7 @@ const Pricing = () => {
                 "Affordable startup pricing",
                 "Basic support available",
             ],
-            yellow: "/src/assets/yellow.png"
+            yellowDot: yellow
         },
         {
             name: "Advance",
@@ -28,7 +29,7 @@ const Pricing = () => {
                 "Mid-tier pricing option",
                 "Improved support access",
             ],
-            yellow: "/src/assets/yellow.png"
+            yellowDot: yellow
         },
         {
             name: "Premium",
@@ -40,7 +41,7 @@ const Pricing = () => {
                 "Exclusive premium pricing",
                 "Top-tier support",
             ],
-            yellow: "/src/assets/yellow.png"
+            yellowDot: yellow
         },
     ];
 
@@ -65,7 +66,7 @@ const Pricing = () => {
                 variants={fadeIn("up", 0.15)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.3 }}
+                viewport={{ once: false, amount: 0.2 }}
                 className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 md:w-12/12 mx-auto">
                 {
                     packages.map((pkg, index) => (
@@ -79,7 +80,7 @@ const Pricing = () => {
                             <ul className="mt-4 space-y-2 px-4">
                                 {pkg.features.map((feature, idx) => (
                                     <li key={idx} className="flex gap-3 items-center">
-                                        <img src={pkg.yellow} alt="" className="w-4 h-4" />
+                                        <img src={pkg.yellowDot} alt="" className="w-4 h-4" />
                                         {feature}
                                     </li>
                                 ))}
