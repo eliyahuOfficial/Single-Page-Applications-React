@@ -1,0 +1,50 @@
+{
+  "name": "single-page-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "framer-motion": "^11.2.11",
+    "postcss": "^8.4.38",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.1",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.23.1",
+    "react-scroll": "^1.9.0",
+    "sass": "^1.72.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@types/react-scroll": "^1.8.10",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6"
+  },
+  "description": "A single-page React application showcasing modern web development tools and techniques.",
+  "features": [
+    "Built with React and React Router for frontend rendering and navigation.",
+    "Uses Tailwind CSS for a utility-first approach to styling.",
+    "Integrates Sass for enhanced CSS functionality.",
+    "Utilizes React Icons for easily adding SVG icons to components.",
+    "Implements React Hook Form for efficient form handling.",
+    "Includes smooth scrolling functionality with React Scroll.",
+    "Optimized build and development workflows with Vite and TypeScript.",
+    "Configured with ESLint for code linting and TypeScript type checking.",
+    "Animation variants with customizable fade-in effects using framer-motion in variants.ts."
+  ]
+}

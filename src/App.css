@@ -1,0 +1,27 @@
+nav {
+  z-index: 100001;
+}
+
+
+.gradientBg {
+
+  background: linear-gradient(to bottom, rgba(233, 232, 191, 0.3) 15%, #e6df81 85%, #ddc071);
+}
+
+.btnPrimary {
+  @apply py-2 px-8 bg-yellow-300 rounded hover:bg-yellow-400 transition-all duration-300;
+}
+
+.rotate {
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
