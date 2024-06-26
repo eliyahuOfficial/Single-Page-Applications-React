@@ -34,7 +34,7 @@ The Pricing component is designed for showcasing subscription plans with flexibi
 
 
 ## Features Description:
---Built with React and React Router: Provides a robust foundation for building dynamic single-page applications (SPAs).
+--Built with React : Provides a robust foundation for building dynamic single-page applications (SPAs).
 --Tailwind CSS: Enables rapid UI development with a utility-first CSS framework.
 --React Icons: Offers a vast library of SVG icons for use in components.
 --React Hook Form: Simplifies form handling in React applications with efficient hooks.
